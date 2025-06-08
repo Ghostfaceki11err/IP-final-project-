@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <script src="JS/greetings.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Review</title>
+  <link rel="stylesheet" href="CSS/review.css"
+</head>
+<body>
+  <header> 
+    <h1>BookReview</h1>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="review.html">Reviews</a>
+      <a href="geners.html">Genres</a>
+      <a href="community.html">Community</a>
+      <a href="Aboutus.html">About</a>
+      <a href="profile.html"><button><b>Profile</b></button></a>
+    </nav>
+  </header>
+  <main>
+    <section >
+      <h3 id="greeting"></h3>
+    </section>
+  </main>
+
+  <main>
+    <section >
+      <h1>Submit Your Book Review</h1>
+      <form>
+        <label for="title">Book Title</label>
+        <input type="text" id="title" placeholder="Enter book title">
+
+        <label for="author">Author</label>
+        <input type="text" id="author" placeholder="Enter author name"> <br> 
+
+        <label for="rating">Rating</label>
+        <select id="rating">
+          <option value="">Select rating</option>
+          <option value="1">1 ★</option>
+          <option value="2">2 ★★</option>
+          <option value="3">3 ★★★</option>
+          <option value="4">4 ★★★★</option>
+          <option value="5">5 ★★★★★</option>
+        </select>
+
+        <label for="review">Your Review</label>
+        <textarea id="review" placeholder="Share your thoughts about the book..."></textarea>
+
+        <button type="submit" >Submit Review</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <table>
+      <tr>
+        <td>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="review.html">Reviews</a></li>
+            <li><a href="Aboutus.html">About Us</a></li>
+          </ul>
+        </td>
+        <td>
+          <h4>Social Media</h4>
+          <ul>
+            <li><a href="https://twitter.com">Twitter</a></li>
+            <li><a href="https://Facebook.com">Facebook</a></li>
+            <li><a href="https://Instagram.com">Instagram</a></li>
+          </ul>
+        </td>
+    </table>
+    <p>&copy; 2024 BookReviews. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>
